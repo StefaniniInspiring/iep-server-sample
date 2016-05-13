@@ -1,0 +1,27 @@
+<configurations>
+    <configuration componentId="system" activeTime="2016-05-05T00:00:00.000+03:00">
+        <actors>            
+            <actor>
+                <id>3000</id>
+                <name>Cliente</name>
+                <attributes>                   
+                    <attribute>
+                        <id>3002</id>
+                        <name>name</name>
+                        <mandatory>true</mandatory>
+                    </attribute>
+					<attribute>
+                        <id>3002</id>
+                        <name>cpf</name>
+                        <mandatory>true</mandatory>
+                    </attribute>   
+					<attribute>
+                        <id>3002</id>
+                        <name>city</name>
+                        <mandatory>false</mandatory>
+                    </attribute>
+                </attributes>
+            </actor>
+		</actors>
+	</configuration>
+</configurations>
