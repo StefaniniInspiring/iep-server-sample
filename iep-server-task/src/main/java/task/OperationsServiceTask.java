@@ -26,7 +26,7 @@ public class OperationsServiceTask {
 		 String value1 = (String) context.getParam("value1");
 		 String value2 = (String) context.getParam("value2");
 		 
-		 double total =  Double.parseDouble(value1) + Double.parseDouble(value2);
+		 double total =  Double.parseDouble(value1) - Double.parseDouble(value2);
 		 System.out.println("Total Value after subtraction" + total );  
 		 
 		 return context;
